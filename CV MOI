@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>個人履歷表 - 葉秋玄 - 卓越版</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+/* ---------------------------------------------------- */
+/* Resume Style - Modern, Elegant, Avatar with <img> */
+/* ---------------------------------------------------- */
+body {
+background-color: #e0f7fa;
+font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 20px 0;
+color: #333;
+}
+.resume-container {
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+background-color: #ffffff;
+box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+overflow: hidden;
+}
+.contact-info-block {
+padding: 30px 40px;
+background-color: #00897b;
+color: #ffffff;
+display: flex;
+align-items: center;
+border-bottom: 5px solid #00564d;
+}
+.avatar {
+width: 110px;
+height: 110px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 25px;
+border: 5px solid #80cbc4;
+flex-shrink: 0;
+}
+.avatar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.name-title h1 {
+margin: 0;
+font-size: 2.2em;
+color: #ffffff;
+font-weight: 700;
+letter-spacing: 1px;
+}
+.name-title p {
+margin: 8px 0 0 0;
+font-size: 1.05em;
+color: #e0f2f1;
+}
+.content-area {
+width: 100%;
+padding: 30px 40px;
+background-color: #ffffff;
+}
+h2 {
+font-size: 1.6em;
+color: #00796b;
+border-bottom: 2px solid #b2dfdb;
+font-weight: 700;
+padding-bottom: 8px;
+margin-top: 40px;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+h2 i {
+margin-right: 12px;
+color: #00897b;
+font-size: 1.1em;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+margin-top: 5px;
+}
+ul li {
+margin-bottom: 10px;
+position: relative;
+padding-left: 25px;
+}
+ul li::before {
+content: '▪';
+color: #00897b;
+font-weight: bold;
+display: inline-block;
+width: 1em;
+margin-left: -1.2em;
+font-size: 1.2em;
+}
+.item-header {
+font-weight: 600;
+display: flex;
+justify-content: space-between;
+margin-bottom: 8px;
+color: #004d40;
+font-size: 1.1em;
+}
+.date {
+font-style: italic;
+font-weight: normal;
+color: #666;
+font-size: 0.95em;
+}
+.metric {
+color: #d84315;
+font-weight: bold;
+background-color: #fff3e0;
+padding: 2px 6px;
+border-radius: 4px;
+}
+.contact-details p {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+color: #444;
+}
+.contact-details p i {
+margin-right: 12px;
+color: #00796b;
+font-size: 1.1em;
+width: 20px;
+text-align: center;
+}
+.footer-text {
+text-align: center;
+padding: 15px;
+font-size: 0.85em;
+color: #777;
+background-color: #f0fdfd;
+border-top: 1px solid #e0f2f1;
+}
+</style>
+</head>
+<body>
+
+<div class="resume-container">
+
+<!-- 頭部 -->
+<div class="contact-info-block">
+<div class="avatar">
+<!-- 🔽 Thay ảnh ở đây -->
+<img src="IMG_0014.PNG" alt="Avatar">
+</div>
+<div class="name-title">
+<h1>葉 秋 玄 (Diệp Thu Huyền)</h1>
+<p>亞洲大學 · 健康產業管理學系 一年級 | 學號: 114011108</p>
+</div>
+</div>
+
+<!-- Nội dung chính -->
+<div class="content-area">
+
+<section id="objective">
+<h2><i class="fas fa-bullseye"></i> 求職目標 (Mục tiêu Nghề nghiệp)</h2>
+<p>
+<b>短期目標:</b> 積極尋求行政支援實習機會，承諾運用由烘焙經驗培養的<b>嚴謹規範意識</b>和<b>編織訓練的細節關注度</b>，高效協助辦公室管理和系統維護。
+<br>
+<b>長期抱負:</b> 致力於發展個人組織與語言能力，最終目標是成為一名專業<b>華語老師</b>，並計畫在台灣<b>開設連鎖越南餐廳</b>，推廣亞洲美食文化交流。
+</p>
+</section>
+
+<section id="introduction">
+<h2><i class="fas fa-user-circle"></i> 個人簡介 (Tự giới thiệu)</h2>
+<p>我是亞洲大學一年級新生 (學號 114011108)，對於華語教學抱持熱忱，並擁有在台灣拓展連鎖越南餐飲的企業家精神。我熱愛<b>編織</b>、<b>探索美食</b>及<b>發掘新地點</b>，這些興趣培養了我細心、耐心和適應多樣文化的能力。</p>
+</section>
+
+<section id="projects">
+<h2><i class="fas fa-project-diagram"></i> 專案與實作 (Dự án & Thực hành)</h2>
+<ul>
+<li><b>流程創建與文件化:</b> 獨立完成並記錄了超過 <span class="metric">25 項</span> 烹飪、插花與烘焙的標準化配方。</li>
+<li><b>時間管理與文化學習:</b> 積極參與校內茶道社團及插花課程，平衡學習與活動。</li>
+<li><b>專注力實踐:</b> 透過編織訓練專注與耐心。</li>
+</ul>
+</section>
+
+<section id="education">
+<h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+<div class="item-header">
+<span class="item-title">亞洲大學 (Asia University)</span>
+<span class="date">2024 年 – 至今</span>
+</div>
+<p>健康產業管理學系 · 大一新生</p>
+</section>
+
+<section id="experience">
+<h2><i class="fas fa-briefcase"></i> 工作經驗</h2>
+<div>
+<div class="item-header">
+<span class="item-title">麵包店助理 (兼職人員)</span>
+<span class="date">2023 年 06 月 – 2024 年 06 月</span>
+</div>
+<p>某烘焙坊</p>
+<ul>
+<li><b>效率提升:</b> 優化原料整理，將工作區準備時間縮短 <span class="metric">15%</span>。</li>
+<li><b>規範執行:</b> 嚴格遵循衛生SOP，任職 <span class="metric">12 個月</span> 無違規。</li>
+<li><b>客戶服務:</b> 高峰期服務平均 <span class="metric">30–40 位顧客/班次</span>。</li>
+</ul>
+</div>
+</section>
+
+<section id="skills">
+<h2><i class="fas fa-tools"></i> 主要技能</h2>
+<ul>
+<li><b>語言能力:</b> 漢語 B1 級, 基礎英語能力。</li>
+<li><b>電腦技能:</b> Microsoft Office (Word, Excel, PowerPoint)。</li>
+<li><b>核心特質:</b> 專業道德、高責任感、耐心與細心。</li>
+</ul>
+</section>
+
+<section id="contact-details">
+<h2><i class="fas fa-address-book"></i> 聯絡資訊</h2>
+<p><i class="fas fa-envelope"></i> 電子郵件: <b>thudiep733@gmail.com</b></p>
+<p><i class="fas fa-map-marker-alt"></i> 居住地: 台中市 (Taichung City, Taiwan)</p>
+</section>
+
+</div>
+
+<div class="footer-text">
+葉秋玄 - 99 分履歷 (2025/10) · Powered by GitHub Pages
+</div>
+
+</div>
+
+</body>
+</html>
